@@ -85,7 +85,7 @@ void setup() {
 
   // micro-ROSをセットアップする関数
   // Wi-FI経由で通信する際の引数はSSID, パスワード, 接続先のPCのIPアドレス, ポート番号(適当でOK)
-  set_microros_wifi_transports("TP-Link_B00F", "63734171", "192.168.0.114", 2000);
+  set_microros_wifi_transports("SSID", "PASSWORD", "IP_ADDRESS", 2000);
 
   // セットアップが完了するまで少しの間待機
   delay(2000);
