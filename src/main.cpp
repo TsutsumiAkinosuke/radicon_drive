@@ -1,6 +1,4 @@
 #include <M5Core2.h>
-// #include <M5Stack.h>
-// #include <M5StickC.h>
 
 #include <micro_ros_arduino.h>
 #include <stdio.h>
